@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B14B7201F7EA55300ACB1BC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14B71F1F7EA55300ACB1BC /* Person.swift */; };
+		2B14B7221F7EB1B700ACB1BC /* PersonnesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14B7211F7EB1B700ACB1BC /* PersonnesTableViewController.swift */; };
+		2B9594E01F8636160085DCAB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9594DF1F8636160085DCAB /* DetailViewController.swift */; };
+		2BAA57CA1F7FD1C4007715B3 /* PersonneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA57C91F7FD1C4007715B3 /* PersonneTableViewCell.swift */; };
+		2BD002EF1F83D81F00106C70 /* PeopleNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BD002ED1F83D81F00106C70 /* PeopleNetwork.xcdatamodeld */; };
+		2BD6F1461F827D08003ACE39 /* PersonneDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD6F1451F827D08003ACE39 /* PersonneDetailViewController.swift */; };
 		2BDB07FF1F7D059F00A7B581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDB07FE1F7D059F00A7B581 /* AppDelegate.swift */; };
-		2BDB08011F7D059F00A7B581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDB08001F7D059F00A7B581 /* ViewController.swift */; };
 		2BDB08041F7D059F00A7B581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB08021F7D059F00A7B581 /* Main.storyboard */; };
 		2BDB08061F7D059F00A7B581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB08051F7D059F00A7B581 /* Assets.xcassets */; };
 		2BDB08091F7D059F00A7B581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB08071F7D059F00A7B581 /* LaunchScreen.storyboard */; };
+		2BDC346A1F8543F600BE5B85 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC34691F8543F600BE5B85 /* ContactDetailViewController.swift */; };
+		2BE4F7D81F84DFDF003934C9 /* MesContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4F7D71F84DFDF003934C9 /* MesContactsTableViewController.swift */; };
+		2BE4F7DA1F84F19D003934C9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4F7D91F84F19D003934C9 /* MainViewController.swift */; };
+		6ED4C5AB93F07CF796776976 /* Pods_PeopleNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA19CB555DB079A1BF11BA9 /* Pods_PeopleNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BA19CB555DB079A1BF11BA9 /* Pods_PeopleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeopleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAE10C27974B22A13B5FB6D /* Pods-PeopleNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeopleNetwork/Pods-PeopleNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		2B14B71F1F7EA55300ACB1BC /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2B14B7211F7EB1B700ACB1BC /* PersonnesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonnesTableViewController.swift; sourceTree = "<group>"; };
+		2B9594DF1F8636160085DCAB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2BAA57C91F7FD1C4007715B3 /* PersonneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonneTableViewCell.swift; sourceTree = "<group>"; };
+		2BD002EE1F83D81F00106C70 /* PeopleNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeopleNetwork.xcdatamodel; sourceTree = "<group>"; };
+		2BD6F1451F827D08003ACE39 /* PersonneDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonneDetailViewController.swift; sourceTree = "<group>"; };
 		2BDB07FB1F7D059F00A7B581 /* PeopleNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDB07FE1F7D059F00A7B581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BDB08001F7D059F00A7B581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BDB08031F7D059F00A7B581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BDB08051F7D059F00A7B581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDB08081F7D059F00A7B581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDB080A1F7D059F00A7B581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDC34691F8543F600BE5B85 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		2BE4F7D71F84DFDF003934C9 /* MesContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesContactsTableViewController.swift; sourceTree = "<group>"; };
+		2BE4F7D91F84F19D003934C9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F258C2B992A29EEF2A0AF49F /* Pods-PeopleNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeopleNetwork/Pods-PeopleNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED4C5AB93F07CF796776976 /* Pods_PeopleNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B8D974C1F86931A0079601E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B14B7211F7EB1B700ACB1BC /* PersonnesTableViewController.swift */,
+				2BD6F1451F827D08003ACE39 /* PersonneDetailViewController.swift */,
+				2BE4F7D71F84DFDF003934C9 /* MesContactsTableViewController.swift */,
+				2BE4F7D91F84F19D003934C9 /* MainViewController.swift */,
+				2BDC34691F8543F600BE5B85 /* ContactDetailViewController.swift */,
+				2B9594DF1F8636160085DCAB /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2B8D974D1F8693250079601E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B14B71F1F7EA55300ACB1BC /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2B8D974E1F86932B0079601E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BAA57C91F7FD1C4007715B3 /* PersonneTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		2BDB07F21F7D059F00A7B581 = {
 			isa = PBXGroup;
 			children = (
+				2BD002ED1F83D81F00106C70 /* PeopleNetwork.xcdatamodeld */,
 				2BDB07FD1F7D059F00A7B581 /* PeopleNetwork */,
 				2BDB07FC1F7D059F00A7B581 /* Products */,
+				C0CCE370141753E3FEC19085 /* Pods */,
+				5D0139526C6A108C4969C20F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +108,32 @@
 			isa = PBXGroup;
 			children = (
 				2BDB07FE1F7D059F00A7B581 /* AppDelegate.swift */,
-				2BDB08001F7D059F00A7B581 /* ViewController.swift */,
 				2BDB08021F7D059F00A7B581 /* Main.storyboard */,
 				2BDB08051F7D059F00A7B581 /* Assets.xcassets */,
 				2BDB08071F7D059F00A7B581 /* LaunchScreen.storyboard */,
 				2BDB080A1F7D059F00A7B581 /* Info.plist */,
+				2B8D974D1F8693250079601E /* Model */,
+				2B8D974C1F86931A0079601E /* Controllers */,
+				2B8D974E1F86932B0079601E /* Views */,
 			);
 			path = PeopleNetwork;
+			sourceTree = "<group>";
+		};
+		5D0139526C6A108C4969C20F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA19CB555DB079A1BF11BA9 /* Pods_PeopleNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0CCE370141753E3FEC19085 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DAE10C27974B22A13B5FB6D /* Pods-PeopleNetwork.debug.xcconfig */,
+				F258C2B992A29EEF2A0AF49F /* Pods-PeopleNetwork.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BDB080D1F7D059F00A7B581 /* Build configuration list for PBXNativeTarget "PeopleNetwork" */;
 			buildPhases = (
+				ABCE595DD9C58906DC1804F5 /* [CP] Check Pods Manifest.lock */,
 				2BDB07F71F7D059F00A7B581 /* Sources */,
 				2BDB07F81F7D059F00A7B581 /* Frameworks */,
 				2BDB07F91F7D059F00A7B581 /* Resources */,
+				3DFD2B3EC3AADDEF152FEFDE /* [CP] Embed Pods Frameworks */,
+				39D1616CE33A86BE86C69096 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +206,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39D1616CE33A86BE86C69096 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeopleNetwork/Pods-PeopleNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DFD2B3EC3AADDEF152FEFDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PeopleNetwork/Pods-PeopleNetwork-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeopleNetwork/Pods-PeopleNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCE595DD9C58906DC1804F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeopleNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BDB07F71F7D059F00A7B581 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BDB08011F7D059F00A7B581 /* ViewController.swift in Sources */,
+				2B9594E01F8636160085DCAB /* DetailViewController.swift in Sources */,
+				2BE4F7D81F84DFDF003934C9 /* MesContactsTableViewController.swift in Sources */,
+				2BE4F7DA1F84F19D003934C9 /* MainViewController.swift in Sources */,
+				2BD002EF1F83D81F00106C70 /* PeopleNetwork.xcdatamodeld in Sources */,
+				2B14B7201F7EA55300ACB1BC /* Person.swift in Sources */,
+				2B14B7221F7EB1B700ACB1BC /* PersonnesTableViewController.swift in Sources */,
+				2BD6F1461F827D08003ACE39 /* PersonneDetailViewController.swift in Sources */,
 				2BDB07FF1F7D059F00A7B581 /* AppDelegate.swift in Sources */,
+				2BDC346A1F8543F600BE5B85 /* ContactDetailViewController.swift in Sources */,
+				2BAA57CA1F7FD1C4007715B3 /* PersonneTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +393,7 @@
 		};
 		2BDB080E1F7D059F00A7B581 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAE10C27974B22A13B5FB6D /* Pods-PeopleNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PeopleNetwork/Info.plist;
@@ -268,6 +406,7 @@
 		};
 		2BDB080F1F7D059F00A7B581 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F258C2B992A29EEF2A0AF49F /* Pods-PeopleNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PeopleNetwork/Info.plist;
@@ -297,8 +436,22 @@
 				2BDB080F1F7D059F00A7B581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BD002ED1F83D81F00106C70 /* PeopleNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BD002EE1F83D81F00106C70 /* PeopleNetwork.xcdatamodel */,
+			);
+			currentVersion = 2BD002EE1F83D81F00106C70 /* PeopleNetwork.xcdatamodel */;
+			path = PeopleNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2BDB07F31F7D059F00A7B581 /* Project object */;
 }
